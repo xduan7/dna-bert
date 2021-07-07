@@ -26,7 +26,7 @@ conda activate dnabert
 (Required)
 
 ```
-conda install pytorch torchvision cudatoolkit=10.0 -c pytorch
+conda install pytorch=1.4 torchvision cudatoolkit=<CUDA_VERSION> -c pytorch
 
 git clone https://github.com/jerryji1993/DNABERT
 cd DNABERT
